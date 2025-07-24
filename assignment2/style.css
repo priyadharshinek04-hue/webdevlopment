@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fefefe;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #b68d40;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+.hero {
+  background-image: url('bkg1.jpg'); /* use your image filename */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #111;
+}
+
+.hero-text {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #b68d40;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.about, .collections, .contact {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #b68d40;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fffaf5;
+  border: 1px solid #eee;
+  padding: 20px;
+  width: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: rgb(2, 20, 73);
+}
+.card p2{
+  color: rgb(255, 105, 105);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fef8f0;
+  color: #777;
+  margin-top: 40px;
+}
+.featured {
+  background-color: #f8f8f8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.featured h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-card h4 {
+  margin: 10px 0 5px;
+  font-family: 'Playfair Display', serif;
+}
+
+.product-card p {
+  color: #444;
+  font-weight: bold;
+}
+.slider { position: relative; height: 100%; overflow: hidden; }
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.slide.active { opacity: 1; }
+.shop-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+  background-color: #444;
+}
+.collections-section {
+background-image: url('bkg1.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+padding: 50px 10px;
+color: #333;
+}
+/* Background for Collections Section */
+#collections {
+  background-image: url('bkg2.jpg'); /* Replace with your image file name */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  color: #fff; /* Optional: ensures text remains visible */
+}
+
+#collections h2 {
+  color: #fff; /* Optional: heading color */
+}
+
